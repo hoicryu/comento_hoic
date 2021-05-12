@@ -1,0 +1,77 @@
+@import "/src/styles/common.scss";
+
+.Contents{
+  width: 864px;
+  height: 179px;
+  padding: 20px;
+  margin-bottom: 30px;
+  border: 1px solid #E1E4E7;
+  border-radius: 5px;
+
+  @media screen and (max-width: 768px) {
+    width: $mobileWidth;
+    height: 179px;
+    padding: $mobilePadding;
+    margin-bottom: 10px;
+    box-shadow: 0px 5px 10px #0000000D;
+    border: none;
+    border-radius: 0;
+  }
+  
+  h2{
+    padding-bottom: 10px;
+    color:#7E848A;
+    border-bottom: 1px solid #E1E4E7;
+    font: normal normal normal 13px/25px $defaltFont;
+
+    @media screen and (max-width: 768px) {
+      font-size: 13px;
+    }
+  }
+
+  .addition{
+    display: flex;
+    margin-top: 10px;
+    font: normal normal normal 13px/25px $defaltFont;
+
+    @media screen and (max-width: 768px) {
+      margin-top: 20px;
+    }
+
+    span{
+      padding-right: 10px;
+
+      &:first-child{
+        color: $defaltGreenColor;
+        border-right: 1px solid #E1E4E7 ;
+
+        @media screen and (max-width: 768px) {
+          border-right: none;
+        }
+      }
+      &:nth-child(2){
+        padding-left: 10px;
+
+        @media screen and (max-width: 768px) {
+          display: none;
+        }
+      }
+    }
+  }
+
+  h3{
+    margin-top:10px;
+    font: normal normal bold 18px/28px $defaltFont;
+    overflow: hidden;
+
+  }
+
+  p{
+    font: normal normal normal 16px/25px $defaltFont;
+    overflow: hidden;
+
+    @media screen and (max-width: 768px) {
+      font-size: 16px;
+    }
+  }
+}
