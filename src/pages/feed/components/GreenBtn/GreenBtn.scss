@@ -1,0 +1,14 @@
+@import "/src/styles/common.scss";
+
+.GreenBtn{
+
+  button{
+    width: 235px;
+    height: 60px;
+    background-color: $defaltGreenColor;
+    font-size: 22px;
+    font-style: $defaltFont;
+    color: $defaltWhiteColor;
+    border-radius: 5px;
+  }
+}

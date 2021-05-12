@@ -1,0 +1,78 @@
+@import "/src/styles/common.scss";
+
+.Avert{
+  width: 864px;
+  height: 255px;
+  padding: 20px;
+  margin-bottom: 30px;
+  border: 1px solid #E1E4E7;
+  border-radius: 5px;
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    width: $mobileWidth;
+    height: 381px;
+    padding: $mobilePadding;
+    border: none;
+    border-radius: 0;
+    box-shadow: 0px 5px 10px #0000000D;
+  }
+  
+  h2{
+    padding-bottom: 10px;
+    color: #ADB5BD;
+    font: normal normal normal 13px/25px $defaltFont;
+  }
+  
+  .postImgBox{
+    display: flex;
+    margin-top: 5px;
+
+    @media screen and (max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+    }
+
+    img{
+      width:310px; 
+      height:179px;
+      background-color: aqua;
+
+      @media screen and (max-width: 768px) {
+        width: 345px;
+      }
+    }
+
+    .post{
+      margin-left: 15px;
+
+      @media screen and (max-width: 768px) {
+        margin-left: 0;
+        margin-top: 20px;
+      }
+
+      h3{
+        font: normal normal bold 18px/28px $defaltFont;
+        overflow: hidden;
+
+        @media screen and (max-width: 768px) {
+          height: 55px;
+        }
+      }
+    
+      p{
+        margin-top: 15px;
+        font: normal normal normal 16px/25px $defaltFont;
+        overflow: hidden;
+
+        @media screen and (max-width: 768px) {
+          margin-top: 5px;
+          height: 49px; 
+        }
+      }
+    }
+  }
+  
+  
+}

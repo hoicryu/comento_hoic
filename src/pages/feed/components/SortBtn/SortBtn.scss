@@ -1,0 +1,26 @@
+@import "/src/styles/common.scss";
+
+.SortBtn{
+  display: flex;
+  align-items: center;
+
+  .Dot{
+    width: 6px;
+    height: 6px;
+    background-color: #ADB5BD;
+    border-radius: 5px;
+
+    &.green {
+      background-color: $defaltGreenColor;
+    }
+  }
+  
+  button{
+    color:#ADB5BD;
+    font-size: 13px;
+
+    &.green {
+      color: #495057;
+    }
+  }
+}
