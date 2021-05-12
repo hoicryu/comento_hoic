@@ -1,0 +1,36 @@
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@mixin filterNameSize {
+  width: 117px;
+  height: 24px;
+}
+
+@mixin filterButtonSize {
+  width: 227px;
+  height: 40px;
+}
+
+@mixin filterCheckBoxSize {
+  width: 20px;
+  height: 20px;
+}
+
+
+$defaltBackColor: #ffffff;
+$defaltFont: SpoqaHanSans;

@@ -1,0 +1,21 @@
+@import "/src/styles/common.scss";
+
+.FeedMain{
+
+  header{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    
+    h1{
+      margin-left: 390px;
+    }
+  }
+  
+  aside{
+    margin-top: 23px;
+    margin-left: 390px;
+
+    
+  }
+}
