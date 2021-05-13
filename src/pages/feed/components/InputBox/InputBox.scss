@@ -1,0 +1,17 @@
+@import "/src/styles/common.scss";
+
+.InputBox{
+  display: flex;
+  align-items: center;
+
+  input{
+    width: 20px;
+    height: 20px;
+  }
+
+  label{
+    margin-left: 3px;
+    font: normal normal normal 16px/32px $defaltFont;
+    color:#495057;
+  }
+}
