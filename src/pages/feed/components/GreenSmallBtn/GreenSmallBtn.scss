@@ -1,0 +1,23 @@
+@import "/src/styles/common.scss";
+
+.GreenSmallBtn{
+  display: flex;
+  justify-content: flex-end;
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+  }
+
+  button{
+    width: 99px;
+    height: 40px;
+    background-color: $defaltGreenColor;
+    font: normal normal normal 16px/32px $defaltFont;
+    color: $defaltWhiteColor;
+    border-radius: 3px;
+
+    @media screen and (max-width: 768px) {
+      width: 280px;
+      height: 40px;
+    }
+  }
+}
